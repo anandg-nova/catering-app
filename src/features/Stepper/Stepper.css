@@ -1,0 +1,28 @@
+.stepper-bar {
+  background: #fff;
+  border-bottom: 1px solid #f3f4f6;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stepper-item { display: flex; align-items: center; }
+.stepper-btn {
+  display: flex; align-items: center; gap: 8px;
+  background: none; border: none; cursor: pointer; padding: 0;
+  transition: opacity 0.15s;
+}
+.stepper-btn:hover { opacity: 0.75; }
+.stepper-circle {
+  width: 26px; height: 26px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; font-weight: 700;
+  border: 2px solid #d1d5db; color: #9ca3af; flex-shrink: 0;
+}
+.stepper-circle.active { border-color: #2563eb; color: #2563eb; }
+.stepper-circle.done   { border: none; }
+.stepper-text { font-size: 13px; font-weight: 500; color: #9ca3af; white-space: nowrap; }
+.stepper-text.active { color: #2563eb; font-weight: 600; }
+.stepper-text.done   { color: #374151; }
+.stepper-line { height: 1px; width: 100px; background: #e5e7eb; margin: 0 16px; }
+.stepper-line.done { background: #93c5fd; }

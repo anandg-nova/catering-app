@@ -1,0 +1,53 @@
+.oi-backdrop {
+  position: fixed; inset: 0; background: rgba(0,0,0,0);
+  z-index: 400; transition: background 0.22s ease;
+}
+.oi-backdrop-show { background: rgba(0,0,0,0.4); }
+
+.oi-modal {
+  position: fixed; top: 50%; left: 50%;
+  transform: translate(-50%, -48%) scale(0.96);
+  opacity: 0; z-index: 401;
+  background: #fff; border-radius: 16px;
+  width: 480px; max-width: calc(100vw - 32px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+  transition: transform 0.22s cubic-bezier(0.34,1.56,0.64,1), opacity 0.18s ease;
+}
+.oi-modal-show { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+
+.oi-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 24px 16px;
+}
+.oi-title { font-size: 16px; font-weight: 700; color: #111827; }
+.oi-close {
+  width: 28px; height: 28px; border: none; background: none;
+  cursor: pointer; border-radius: 6px;
+  display: flex; align-items: center; justify-content: center; transition: background 0.12s;
+}
+.oi-close:hover { background: #f3f4f6; }
+
+.oi-body { padding: 0 24px 8px; display: flex; flex-direction: column; gap: 14px; }
+.oi-field { display: flex; flex-direction: column; gap: 5px; flex: 1; }
+.oi-label { font-size: 11px; font-weight: 600; color: #9ca3af; letter-spacing: 0.04em; }
+.oi-input {
+  border: 1px solid #e5e7eb; border-radius: 10px;
+  padding: 10px 12px; font-size: 14px; color: #1f2937;
+  outline: none; background: #fff; font-family: inherit; width: 100%;
+  transition: border-color 0.15s;
+}
+.oi-input:focus { border-color: #2563eb; }
+.oi-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.oi-price-wrap { position: relative; }
+.oi-price-input { padding-right: 32px !important; }
+.oi-price-sym {
+  position: absolute; right: 12px; top: 50%;
+  transform: translateY(-50%); font-size: 13px; color: #9ca3af; pointer-events: none;
+}
+.oi-footer {
+  display: flex; align-items: center; justify-content: flex-end;
+  gap: 10px; padding: 16px 24px 20px;
+}
+.btn-primary.disabled {
+  background: #e5e7eb !important; color: #9ca3af !important; cursor: not-allowed !important;
+}

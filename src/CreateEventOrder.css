@@ -1,0 +1,135 @@
+/* Import shared tokens */
+@import './shared/tokens.css';
+
+.ceo-app   { min-height: 100vh; background: var(--color-bg); display: flex; flex-direction: column; }
+
+/* Topbar */
+.ceo-topbar {
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border-light);
+  padding: 10px 24px;
+  display: flex; align-items: center; justify-content: space-between;
+  position: sticky; top: 0; z-index: 100;
+  gap: 16px;
+}
+.ceo-topbar-left  { display: flex; align-items: center; gap: 16px; flex: 1; min-width: 0; }
+.ceo-topbar-title { font-size: 15px; font-weight: 600; color: #1f2937; white-space: nowrap; }
+.ceo-topbar-right { display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
+
+/* ── Cancelled sticky note ── */
+.ceo-sticky-note {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  background: #fff3cd;
+  border: 1px solid #f59e0b;
+  border-left: 4px solid #dc2626;
+  border-radius: 6px;
+  padding: 6px 12px;
+  min-width: 200px;
+  max-width: 380px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.08);
+  position: relative;
+}
+/* Folded corner effect */
+.ceo-sticky-note::after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  border-style: solid;
+  border-width: 0 14px 14px 0;
+  border-color: transparent #f59e0b transparent transparent;
+  border-radius: 0 6px 0 0;
+}
+.ceo-sticky-note-header {
+  display: flex; align-items: center; gap: 6px;
+}
+.ceo-sticky-note-icon  { font-size: 12px; }
+.ceo-sticky-note-label {
+  font-size: 11px; font-weight: 800;
+  letter-spacing: 0.06em; color: #dc2626;
+}
+.ceo-sticky-note-date  { font-size: 10px; color: #92400e; margin-left: auto; }
+.ceo-sticky-note-reason {
+  font-size: 11px; color: #1f2937; line-height: 1.4;
+}
+.ceo-sticky-note-reason strong { color: #dc2626; }
+.ceo-sticky-note-notes {
+  font-size: 11px; color: #6b7280; font-style: italic; line-height: 1.4;
+}
+.ceo-org { text-align: right; }
+.ceo-org-name { font-size: 12px; font-weight: 600; color: #1f2937; }
+.ceo-org-sub  { font-size: 10px; color: #9ca3af; }
+.ceo-avatar {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: #ef4444; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700;
+}
+
+/* Content — 5% padding each side = 10% total whitespace, 90% usable */
+.ceo-content {
+  flex: 1;
+  width: 100%;
+  max-width: 100%;
+  padding: 24px 5% 90px;
+}
+.ceo-tab-card  { display: flex; flex-direction: column; gap: 0; width: 100%; }
+.ceo-tab-header { margin-bottom: 4px; }
+.ceo-tab-title  { font-size: 18px; font-weight: 700; color: #111827; }
+.ceo-tab-sub    { font-size: 13px; color: #9ca3af; margin-top: 4px; }
+
+/* Footer */
+.ceo-footer {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: var(--color-white);
+  border-top: 1px solid var(--color-border-light);
+  padding: 14px 32px;
+  display: flex; align-items: center; justify-content: space-between;
+  z-index: 100;
+}
+.ceo-cancel-link {
+  font-size: 13px; font-weight: 500; color: var(--color-primary);
+  background: none; border: none; cursor: pointer;
+}
+.ceo-cancel-link:hover { text-decoration: underline; }
+.ceo-footer-right { display: flex; gap: 12px; }
+
+/* ─── Export JSON button ────────────────────────────────────── */
+.ceo-export-btn {
+  display: flex; align-items: center; gap: 6px;
+  padding: 7px 14px;
+  border: 1px solid #e5e7eb; border-radius: 8px;
+  background: #fff; font-size: 12px; font-weight: 600;
+  color: #374151; cursor: pointer; transition: all 0.15s;
+  white-space: nowrap;
+}
+.ceo-export-btn:hover { background: #f0fdf4; border-color: #bbf7d0; color: #16a34a; }
+
+/* ─── Order Source pill in topbar ───────────────────────────── */
+.ceo-source-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ceo-source-online {
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+}
+.ceo-source-backoffice {
+  background: #f5f3ff;
+  color: #7c3aed;
+  border: 1px solid #ddd6fe;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translate(-50%, 10px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}

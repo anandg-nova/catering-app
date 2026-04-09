@@ -1,0 +1,620 @@
+{
+  "exportedAt": "2026-04-08T23:23:55.847Z",
+  "totalOrders": 6,
+  "orders": [
+    {
+      "orderNumber": "90-23660",
+      "status": "confirmed",
+      "createdAt": "2026-04-08T21:50:02.570Z",
+      "updatedAt": "2026-04-08T21:50:02.570Z",
+      "cancelledAt": null,
+      "cancelReason": null,
+      "cancelNotes": null,
+      "kitchenNote": "",
+      "customer": {
+        "name": "Raj",
+        "company": "Dhami",
+        "address": "6101 Bollinger Canyon Road",
+        "phone": "384-394-3943",
+        "email": "raj@novatab.com"
+      },
+      "event": {
+        "name": "Testing",
+        "partySize": "20",
+        "fulfillment": "pickup",
+        "deliveryAddress": "",
+        "deliveryInstructions": "",
+        "date": "2026-04-15",
+        "time": "10:30 PM",
+        "scheduleMode": "one-time",
+        "repeatUnit": "Week",
+        "repeatDays": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "repeatDate": "",
+        "endsMode": "Until turned off",
+        "endsDate": ""
+      },
+      "storeLocation": null,
+      "cart": [
+        {
+          "id": 2,
+          "name": "Frisco Melt",
+          "qty": 1,
+          "unitPrice": 10.29,
+          "lineTotal": 10.29,
+          "modifiers": [
+            "Extra Patty"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Grilled Chicken Sandwich",
+          "qty": 1,
+          "unitPrice": 7.99,
+          "lineTotal": 7.99,
+          "modifiers": [
+            "Add Cheese"
+          ]
+        }
+      ],
+      "financials": {
+        "subTotal": 18.28,
+        "discount": "",
+        "discountType": "$",
+        "discountAmount": 0,
+        "taxExemption": false,
+        "taxAmount": 1.51,
+        "total": 19.79,
+        "paid": 0,
+        "balance": 19.79
+      },
+      "payment": {
+        "method": "",
+        "transactions": [],
+        "uploadedDocument": null
+      }
+    },
+    {
+      "orderNumber": "90-21013",
+      "status": "confirmed",
+      "createdAt": "2026-04-08T15:31:06.595Z",
+      "updatedAt": "2026-04-08T15:31:06.595Z",
+      "cancelledAt": null,
+      "cancelReason": null,
+      "cancelNotes": null,
+      "kitchenNote": "",
+      "customer": {
+        "name": "Christian Wary",
+        "company": "Nova Platform Inc",
+        "address": "6101 Bollinger Canyaon Road",
+        "phone": "934-934-0934",
+        "email": "cwary@novatab.com"
+      },
+      "event": {
+        "name": "Wedding Party",
+        "partySize": "400",
+        "fulfillment": "delivery",
+        "deliveryAddress": "Hawaii Ranch",
+        "deliveryInstructions": "Call from gate",
+        "date": "2026-05-22",
+        "time": "10:30 PM",
+        "scheduleMode": "one-time",
+        "repeatUnit": "Week",
+        "repeatDays": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "repeatDate": "",
+        "endsMode": "Until turned off",
+        "endsDate": ""
+      },
+      "storeLocation": null,
+      "cart": [
+        {
+          "id": 3,
+          "name": "Garlic Double Steakburger",
+          "qty": 1,
+          "unitPrice": 7.99,
+          "lineTotal": 7.99,
+          "modifiers": [
+            "Extra Garlic"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Grilled Chicken Sandwich",
+          "qty": 1,
+          "unitPrice": 7.99,
+          "lineTotal": 7.99,
+          "modifiers": [
+            "Add Cheese"
+          ]
+        },
+        {
+          "id": 1,
+          "name": "Original Double Steakburger",
+          "qty": 8,
+          "unitPrice": 6.49,
+          "lineTotal": 51.92,
+          "modifiers": [
+            "Lettuce",
+            "Pickle",
+            "Tomato"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Frisco Melt",
+          "qty": 1,
+          "unitPrice": 10.79,
+          "lineTotal": 10.79,
+          "modifiers": [
+            "Extra Patty",
+            "Jalapeños"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Thin 'n Crispy Fries",
+          "qty": 1,
+          "unitPrice": 2.99,
+          "lineTotal": 2.99,
+          "modifiers": []
+        },
+        {
+          "id": 7,
+          "name": "Onion Rings",
+          "qty": 10,
+          "unitPrice": 3.49,
+          "lineTotal": 34.9,
+          "modifiers": []
+        },
+        {
+          "id": 5,
+          "name": "Chili Cheese Fries",
+          "qty": 1,
+          "unitPrice": 5.99,
+          "lineTotal": 5.99,
+          "modifiers": [
+            "Extra Cheese"
+          ]
+        }
+      ],
+      "financials": {
+        "subTotal": 122.57,
+        "discount": "",
+        "discountType": "$",
+        "discountAmount": 0,
+        "taxExemption": true,
+        "taxAmount": 0,
+        "total": 122.57,
+        "paid": 0,
+        "balance": 122.57
+      },
+      "payment": {
+        "method": "house",
+        "transactions": [],
+        "uploadedDocument": null
+      }
+    },
+    {
+      "orderNumber": "90-21770",
+      "status": "confirmed",
+      "createdAt": "2026-04-08T14:52:08.879Z",
+      "updatedAt": "2026-04-08T14:52:08.879Z",
+      "cancelledAt": null,
+      "cancelReason": null,
+      "cancelNotes": null,
+      "kitchenNote": "",
+      "customer": {
+        "name": "Anand G",
+        "company": "Nova Platform Inc",
+        "address": "6101 Bollinger canyon road",
+        "phone": "7143801915",
+        "email": "anandg@novatab.com"
+      },
+      "event": {
+        "name": "Happy Hour",
+        "partySize": "50",
+        "fulfillment": "pickup",
+        "deliveryAddress": "",
+        "deliveryInstructions": "",
+        "date": "2026-04-16",
+        "time": "10:30 AM",
+        "scheduleMode": "one-time",
+        "repeatUnit": "Week",
+        "repeatDays": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "repeatDate": "",
+        "endsMode": "Until turned off",
+        "endsDate": ""
+      },
+      "storeLocation": null,
+      "cart": [
+        {
+          "id": 1,
+          "name": "Original Double Steakburger",
+          "qty": 1,
+          "unitPrice": 6.49,
+          "lineTotal": 6.49,
+          "modifiers": [
+            "Lettuce"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Garlic Double Steakburger",
+          "qty": 4,
+          "unitPrice": 8.49,
+          "lineTotal": 33.96,
+          "modifiers": [
+            "Add Cheese"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Chocolate Milkshake",
+          "qty": 2,
+          "unitPrice": 4.29,
+          "lineTotal": 8.58,
+          "modifiers": [
+            "Regular"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Mac & Cheese",
+          "qty": 6,
+          "unitPrice": 3.99,
+          "lineTotal": 23.94,
+          "modifiers": []
+        },
+        {
+          "id": 12,
+          "name": "Soft Drink",
+          "qty": 1,
+          "unitPrice": 1.99,
+          "lineTotal": 1.99,
+          "modifiers": [
+            "Small"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Chocolate Milkshake",
+          "qty": 1,
+          "unitPrice": 5.29,
+          "lineTotal": 5.29,
+          "modifiers": [
+            "Large"
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Strawberry Milkshake",
+          "qty": 1,
+          "unitPrice": 5.29,
+          "lineTotal": 5.29,
+          "modifiers": [
+            "Large"
+          ]
+        }
+      ],
+      "financials": {
+        "subTotal": 85.54,
+        "discount": "",
+        "discountType": "$",
+        "discountAmount": 0,
+        "taxExemption": true,
+        "taxAmount": 0,
+        "total": 85.54,
+        "paid": 0,
+        "balance": 85.54
+      },
+      "payment": {
+        "method": "house",
+        "transactions": [],
+        "uploadedDocument": null
+      }
+    },
+    {
+      "orderNumber": "90-22298",
+      "status": "confirmed",
+      "createdAt": "2026-04-08T14:48:23.523Z",
+      "updatedAt": "2026-04-08T14:48:23.523Z",
+      "cancelledAt": null,
+      "cancelReason": null,
+      "cancelNotes": null,
+      "kitchenNote": "",
+      "customer": {
+        "name": "",
+        "company": "",
+        "address": "",
+        "phone": "",
+        "email": ""
+      },
+      "event": {
+        "name": "",
+        "partySize": "",
+        "fulfillment": "delivery",
+        "deliveryAddress": "",
+        "deliveryInstructions": "",
+        "date": "",
+        "time": "10:30 PM",
+        "scheduleMode": "one-time",
+        "repeatUnit": "Week",
+        "repeatDays": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "repeatDate": "",
+        "endsMode": "Until turned off",
+        "endsDate": ""
+      },
+      "storeLocation": null,
+      "cart": [
+        {
+          "id": "open-1775659652260",
+          "name": "Idly",
+          "qty": 200,
+          "unitPrice": 5,
+          "lineTotal": 1000,
+          "modifiers": []
+        },
+        {
+          "id": 3,
+          "name": "Garlic Double Steakburger",
+          "qty": 1,
+          "unitPrice": 7.99,
+          "lineTotal": 7.99,
+          "modifiers": [
+            "Extra Garlic"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Thin 'n Crispy Fries",
+          "qty": 1,
+          "unitPrice": 2.99,
+          "lineTotal": 2.99,
+          "modifiers": []
+        }
+      ],
+      "financials": {
+        "subTotal": 1010.98,
+        "discount": "",
+        "discountType": "$",
+        "discountAmount": 0,
+        "taxExemption": false,
+        "taxAmount": 83.41,
+        "total": 1094.39,
+        "paid": 0,
+        "balance": 1094.39
+      },
+      "payment": {
+        "method": "",
+        "transactions": [],
+        "uploadedDocument": null
+      }
+    },
+    {
+      "orderNumber": "90-20815",
+      "status": "confirmed",
+      "createdAt": "2026-04-08T01:17:37.794Z",
+      "updatedAt": "2026-04-08T01:17:37.794Z",
+      "cancelledAt": null,
+      "cancelReason": null,
+      "cancelNotes": null,
+      "kitchenNote": "",
+      "customer": {
+        "name": "Matt Gephart",
+        "company": "Nova Platform Inc.",
+        "address": "100 Bollinger Canyon Road",
+        "phone": "123-123-1234",
+        "email": "anand@novatab.com"
+      },
+      "event": {
+        "name": "Happy Hour",
+        "partySize": "30",
+        "fulfillment": "pickup",
+        "deliveryAddress": "",
+        "deliveryInstructions": "",
+        "date": "2027-01-01",
+        "time": "10:30 AM",
+        "scheduleMode": "one-time",
+        "repeatUnit": "Week",
+        "repeatDays": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "repeatDate": "",
+        "endsMode": "Until turned off",
+        "endsDate": ""
+      },
+      "storeLocation": null,
+      "cart": [
+        {
+          "id": 1,
+          "name": "Original Double Steakburger",
+          "qty": 9,
+          "unitPrice": 6.49,
+          "lineTotal": 58.41,
+          "modifiers": [
+            "Lettuce",
+            "Ketchup"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Frisco Melt",
+          "qty": 1,
+          "unitPrice": 10.29,
+          "lineTotal": 10.29,
+          "modifiers": [
+            "Extra Patty"
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Soft Drink",
+          "qty": 10,
+          "unitPrice": 2.99,
+          "lineTotal": 29.9,
+          "modifiers": [
+            "Large"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Mac & Cheese",
+          "qty": 1,
+          "unitPrice": 3.99,
+          "lineTotal": 3.99,
+          "modifiers": []
+        },
+        {
+          "id": 6,
+          "name": "Thin 'n Crispy Fries",
+          "qty": 1,
+          "unitPrice": 2.99,
+          "lineTotal": 2.99,
+          "modifiers": []
+        },
+        {
+          "id": 7,
+          "name": "Onion Rings",
+          "qty": 1,
+          "unitPrice": 3.49,
+          "lineTotal": 3.49,
+          "modifiers": []
+        }
+      ],
+      "financials": {
+        "subTotal": 109.07,
+        "discount": "",
+        "discountType": "$",
+        "discountAmount": 0,
+        "taxExemption": false,
+        "taxAmount": 9,
+        "total": 118.07,
+        "paid": 0,
+        "balance": 118.07
+      },
+      "payment": {
+        "method": "card",
+        "transactions": [],
+        "uploadedDocument": null
+      }
+    },
+    {
+      "orderNumber": "90-27235",
+      "status": "confirmed",
+      "createdAt": "2026-04-08T00:07:16.959Z",
+      "updatedAt": "2026-04-08T00:07:16.959Z",
+      "cancelledAt": null,
+      "cancelReason": null,
+      "cancelNotes": null,
+      "kitchenNote": "",
+      "customer": {
+        "name": "Ron",
+        "company": "Gosh",
+        "address": "100 Stockton Blvd",
+        "phone": "1111111111",
+        "email": "anand@novatab.com"
+      },
+      "event": {
+        "name": "Birthday party",
+        "partySize": "20",
+        "fulfillment": "pickup",
+        "deliveryAddress": "",
+        "deliveryInstructions": "",
+        "date": "2027-03-04",
+        "time": "10:30 AM",
+        "scheduleMode": "one-time",
+        "repeatUnit": "Week",
+        "repeatDays": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "repeatDate": "",
+        "endsMode": "Until turned off",
+        "endsDate": ""
+      },
+      "storeLocation": null,
+      "cart": [
+        {
+          "id": 1,
+          "name": "Original Double Steakburger",
+          "qty": 1,
+          "unitPrice": 7.99,
+          "lineTotal": 7.99,
+          "modifiers": [
+            "Lettuce",
+            "Pickle",
+            "Add Bacon"
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Strawberry Milkshake",
+          "qty": 1,
+          "unitPrice": 5.29,
+          "lineTotal": 5.29,
+          "modifiers": [
+            "Large"
+          ]
+        }
+      ],
+      "financials": {
+        "subTotal": 13.28,
+        "discount": "",
+        "discountType": "%",
+        "discountAmount": 0,
+        "taxExemption": false,
+        "taxAmount": 1.1,
+        "total": 14.38,
+        "paid": 0,
+        "balance": 14.38
+      },
+      "payment": {
+        "method": "house",
+        "transactions": [],
+        "uploadedDocument": null
+      }
+    }
+  ]
+}
